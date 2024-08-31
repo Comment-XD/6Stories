@@ -75,6 +75,8 @@ class Player:
         return None
     
     
+    
+    # Finds items in the player's inventory
     def find_item(self, i):
         for item in self.inventory:
             if item.name == i:
